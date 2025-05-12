@@ -31,7 +31,7 @@ Key Requirement:<br />
 
 ## Appitisers App Introduction
 Prerequisites:<br />
-• Xcode Version 16.0<br />
+• Xcode Version 16.2<br />
 • Swift 6<br />
 • SwiftUI<br />
 
