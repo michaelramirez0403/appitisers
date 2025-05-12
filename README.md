@@ -4,7 +4,7 @@
 
 ## Appitisers App Instruction to use:
 • Download the code from this repository. <br />
-• Double click the zip file and access the SwiftPass folder. <br />
+• Double click the zip file and access the Appitesers folder. <br />
 • Double click the Appetizers.xcodeproj to open the app. <br />
 • Click select the simulator type and the play button in xcode to install the app. <br />
 
