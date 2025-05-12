@@ -20,9 +20,14 @@ Key Requirement:<br />
 ## Acceptance Criteria
 • Create a iOS application using Swift or SwiftUI.<br />
 • App should compile and run successfully with minimal or no warnings <br /> 
-• UI responsive is a plus; MVVM is a plus<br />
 • No crashing or other errors<br />
 • Proper separation of responsibilities per MVVM or VIPER architecture<br />
+• Reads a JSON feed from the internet<br />
+• Parses it and shows the contents in a list/grid<br />
+• Clicking on a list item shows a detailed view of that item<br />
+• Persists the contents of the feed locally, so if the app is used without Internet connection it will show previously downloaded content<br />
+• Compiles and runs from Android Studio/Xcode/React Native CLI<br />
+• Clarity, elegance, and maintainability of code<br />
 
 ## Appitisers App Introduction
 Prerequisites:<br />
