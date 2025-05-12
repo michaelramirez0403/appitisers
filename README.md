@@ -18,7 +18,7 @@ Key Requirement:<br />
 • NO third party frameworks are used.<br /> 
 
 ## Acceptance Criteria
-• Create a iOS application using Swift or Swift Ui.<br />
+• Create a iOS application using Swift or SwiftUI.<br />
 • App should compile and run successfully with minimal or no warnings <br /> 
 • UI responsive is a plus; MVVM is a plus<br />
 • No crashing or other errors<br />
