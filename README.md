@@ -1,6 +1,6 @@
 
 ## Appitisers
-This is a take home project for SevenSeven.<br />
+<br />
 
 ## Appitisers App Instruction to use:
 • Download the code from this repository. <br />
