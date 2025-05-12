@@ -13,12 +13,17 @@ final class AppetizerListViewModel: ObservableObject {
     @Published var isLoading = false
     @Published var isShowingDetail = false
     @Published var selectedAppetizer: Appetizer?
+    //
+    private let networkManager: NetworkManagerProtocol
+    init(networkManager: NetworkManagerProtocol) {
+        self.networkManager = networkManager
+    }
     // MARK: - Methods
     func getAppetizers() {
         isLoading = true
         Task {
             do {
-                appetizers = try await NetworkManager.shared.getAppetizers()
+                appetizers = try await networkManager.getAppetizers()
             } catch {
                 alertItem = mapErrorToAlertItem(error)
             }

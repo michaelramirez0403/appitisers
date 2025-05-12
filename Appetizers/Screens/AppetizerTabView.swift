@@ -18,7 +18,7 @@ struct AppetizerTabView: View {
     }
     // MARK: - Tab Items
     private var homeTab: some View {
-        AppetizerListView()
+        AppetizerListView(viewModel: AppetizerListViewModel(networkManager: NetworkManager()))
             .tabItem { Label(Constant.homeTab,
                              systemImage: Constant.systemImagehome) }
     }
