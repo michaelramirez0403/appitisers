@@ -41,7 +41,7 @@ Design pattern used:<br />
 • Solid priciples applied<br />
 
 Requirements to acheived:<br />
-• Project is written in Swift.<br />
+• Project is written in Swift and SwiftUI.<br />
 • User Default is added for data persistence for simplicity.<br />
 • Unit tests written.<br />
 • App compiled and run successfully with no warnings.<br />
