@@ -40,7 +40,6 @@ Requirements to acheived:<br />
 • User Default is added for data persistence for simplicity.<br />
 • Unit tests written.<br />
 • App compiled and run successfully with no warnings.<br />
-• User is presented with a landing, login and registration page.<br />
 • No crashing or other errors.<br />
 • Proper separation of responsibilities per MVVM architecture.<br />
 • Pure programmatically, no Storyboard. <br />
